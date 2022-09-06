@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;  
+}
+
+html,body {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+html::-webkit-scrollbar{
+  width:0px
+}
+input {
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+:root {
+  --primay: white;
+  --bg-primay: white;
+  --link: #2a0b0b;
+}
+
+.app {
+  position: relative;
+  min-width: 1200px;
+  min-height: 100vh;
+  font-size: 12px;
+}
